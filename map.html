@@ -1,9 +1,35 @@
 <!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
 <html>
 	<head>
 		<title>Map of Relationships between Physicists</title>
 		<link rel="stylesheet" href="style.css">
 	</head>
+	<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+		<a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+		<div class="w3-container">
+		  <h3 class="w3-padding-64"><b>Gravitational<br>Constant<br>Network</h3>
+		</div>
+		<div class="w3-bar-block">
+		  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+		  <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About</a> 
+		  <a href="people.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">People</a> 
+		  <a href="map.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Relationships</a> 
+		  <a href="output.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Outputs</a> 
+		</div>
+	  </nav>
+
+	  
+	  <div class="w3-main" style="margin-left:340px;margin-right:40px">
+
 	<h3>An example of a map you could get to display for each time period</h3>
 	<p>Here you could write some things about the relationships shown on the given map. It would give the opportunity to expand on some of the connections, or explain how this was a particular period of interest.</p>
 	<body>
@@ -17,5 +43,7 @@
 	<param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' />
 	</object></div>                
 	<script type='text/javascript'>                    var divElement = document.getElementById('viz1691053373756');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-	</body>
+</div>	
+</body>
+
 </html>
